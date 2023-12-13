@@ -1,0 +1,130 @@
+.contact_us .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 274px 0 274px 0;
+  background: url('../assets/images/contact_us.jpg');
+  background-position: 350% 50%;
+  background-repeat: no-repeat;
+}
+
+.contact_us .contact_us-form {
+  max-width: 410px;
+  width: 100%;
+}
+
+.contact_us .contact_us-form .form-title {
+  max-width: 320px;
+  margin-bottom: 48px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.contact_us .contact_us-form .form-label {
+  display: block;
+  margin-top: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #c4c4c4;
+}
+
+.contact_us .contact_us-form .form-inp {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 62px;
+  background: linear-gradient(to right, rgba(238, 240, 254, 0.5), rgba(255, 255, 255, 0.5));
+  border: 1px solid #fff;
+  border-radius: 18px;
+}
+
+.contact_us .contact_us-form .form-captcha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.contact_us .contact_us-form .form-button {
+  width: 100%;
+  height: 36px;
+  background-color: #dfff57;
+  border: none;
+  border-radius: 18px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.contact_us .contact_us-select {
+  padding: 45px;
+  background: linear-gradient(259deg, rgba(238, 240, 254, 0.5) 0%, rgba(255, 255, 255, 0.5) 97.6%);
+  box-shadow: 0px 0px 27px rgba(180, 188, 201, 0.2);
+  backdrop-filter: blur(9px);
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+
+.contact_us .contact_us-select .select-top {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.contact_us .contact_us-select .select-top .select-title {
+  max-width: 281px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact_us .contact_us-select .select-top .select-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  box-shadow: 0px 0px 28px rgba(180, 188, 201, 0.5);
+  border-radius: 50%;
+}
+
+.contact_us .contact_us-select .select-body {
+  margin-top: 40px;
+}
+
+.contact_us .contact_us-select .select-body .select-item label{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 49px;
+  margin-bottom: 11px;
+  padding: 0 23px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 18.052px 0px rgba(160, 174, 195, 0.2);
+  border: 1px solid #fff;
+  border-radius: 15px;
+  color: #333539;
+}
+
+.contact_us .contact_us-select .select-body .select-item .item-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact_us .contact_us-select .select-body .select-button {
+  width: 100%;
+  height: 36px;
+  background: #5e44ff;
+  border: none;
+  border-radius: 15px;
+
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+}

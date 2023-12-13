@@ -1,0 +1,152 @@
+.about {
+  padding: 300px 0 65px 0;
+  background-color: #dfff57;
+  background-image: url("../assets/images/about.png");
+  background-repeat: repeat-x;
+  border-radius: 100px;
+}
+
+.about .about-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .about-top .top-title {
+  max-width: 310px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 138%;
+  color: #2e323e;
+}
+
+.about .about-top .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  height: 57px;
+  background-color: rgba(251, 255, 234, 1);
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+
+.about-body .about-coments {
+  margin-top: 55px;
+}
+
+.about-body .about-coments .list {
+  display: flex;
+  gap: 30px;
+}
+
+.about-body .about-coments .list .item {
+  max-width: 415px;
+  width: 100%;
+  padding: 33px 33px 48px 33px;
+  background: rgba(253, 253, 253, 0.5);
+  box-shadow: 0px 0px 27px 0px rgba(180, 188, 201, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid #fff;
+  border-radius: 36px;
+}
+
+.about-body .about-coments .list .item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-body .about-coments .list .item-user {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.about-body .about-coments .list .item-user .user-name,
+.about-body .about-coments .list .item-date {
+  color: #1b1e28;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+
+.about-body .about-coments .item-feedback {
+  margin-top: 25px;
+}
+
+.about-body .about-coments .item-title {
+  margin-top: 25px;
+  color: #2e323e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.about-body .about-coments .item-descr {
+  margin-top: 28px;
+  color: #2e323e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.about-body .about-coments .item-link {
+  display: block;
+  margin-top: 35px;
+  color: #5e44ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about-body .about-coments .coments-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.about-body .about-coments .coments-buttons span {
+  width: 6px;
+  height: 6px;
+  background-color: rgba(46, 50, 62, 1);
+  border-radius: 3px;
+}
+.about-body .about-coments .coments-buttons span.active {
+  width: 24px;
+}
+
+.about-body .promo_code {
+  max-width: 415px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 35px 70px;
+  background: rgba(253, 253, 253, 0.5);
+  box-shadow: 0px 0px 27px 0px rgba(180, 188, 201, 0.2);
+  backdrop-filter: blur(2px);
+  border-radius: 24px;
+  border: 1px solid #fff;
+}
+
+.about-body .promo_code .promo_code-text {
+  color: #2e323e;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.about-body .promo_code .promo_code-title {
+  margin-top: 15px;
+  background: linear-gradient(180deg, #e6ff4e 0%, #bdff00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  line-height: 100%; 
+}

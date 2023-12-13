@@ -1,0 +1,79 @@
+.header{
+  width: 100%;
+  backdrop-filter: blur(14px);
+  box-shadow: 4px 4px 23px #b4bcc95b;
+
+  border-radius: 0 0 100px 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.header-body{
+  display: flex;
+  align-items: center;
+  padding: 35px 0 32px;
+}
+
+.header .logo{
+  margin-right: 35px;
+}
+
+.header .location-wrapper{
+  padding: 7px 24px;
+  margin-right: 35px;
+  background-color: #DFFF57;
+  border-radius: 18px;
+  color: #2E323E;
+}
+
+.header .location-wrapper .city{
+  font-size: 15px;
+}
+.header .location-wrapper .location{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.header .see_application{
+  flex: 1 0 auto;
+  font-size: 15px;
+  color: #2E323E;
+}
+
+.header .phone{
+  margin-right: 45px;
+  color: #2E323E;
+}
+
+.header .phone .phone-text{
+  font-size: 13px;
+}
+.header .phone .phone-number{
+  margin-top: 3px;
+  font-size: 18px;
+}
+
+.header .user{
+  display: flex;
+  align-items: center;
+  padding: 5px 30px 5px 5px;
+  background-color: #FBFFEA;
+  border-radius: 28px;
+}
+
+
+.subheader{
+  padding: 22px 0;
+  border-top: 1px dashed #C4C4C4;
+}
+
+.subheader-nav .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subheader-nav .link{
+  color: #2E323E;
+  text-decoration: none;
+}

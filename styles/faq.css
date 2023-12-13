@@ -1,0 +1,100 @@
+
+
+.faq{
+  margin-top: 190px;
+}
+
+.faq .faq-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2e323e;
+}
+
+.faq .item-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: all .2s;
+}
+
+.faq .item-body.active{
+  grid-template-rows: 1fr;
+  transition: all .2s;
+}
+
+.faq .item-body .item-container {
+  min-height: 0;
+}
+
+.faq .faq-list .faq-item {
+  padding: 48px 0;
+  border-bottom: 1px dashed #c4c4c4;
+}
+
+.faq .faq-list .faq-item .item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq .faq-list .faq-item .item-top span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2e323e;
+}
+
+.faq .faq-list .faq-item .item-top .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background: #fbffea;
+  backdrop-filter: blur(4px);
+  transform: rotate(-90deg);
+  transition: all .2s;
+}
+
+.faq .faq-list .faq-item .item-top.active .icon{
+  transform: rotate(90deg);
+  transition: all .2s;
+}
+
+.faq .faq-list .list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.faq .faq-list .list .item {
+  position: relative;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #2e323e;
+}
+.faq .faq-list .list .item::before {
+  content: ".";
+  position: absolute;
+  top: -50%;
+  left: 10px;
+  transform: translateY(25%);
+}
+
+.faq .faq-list .item-button {
+  width: 415px;
+  height: 36px;
+  margin-top: 32px;
+  background: #dfff57;
+
+  border: none;
+  border-radius: 22px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #2e323e;
+}

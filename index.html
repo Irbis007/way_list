@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-body">
+          <div class="logo">
+            <img src="./assets/icons/logo.svg" alt="logo" />
+          </div>
+          <div class="location-wrapper">
+            <span class="city">Ваш город:</span>
+            <span class="location">Новосибирск</span>
+          </div>
+          <div class="see_application">Отследить заявку</div>
+          <div class="phone">
+            <div class="phone-text">Бесплатно по России</div>
+            <div class="phone-number">+7 (999) 999 99-99</div>
+          </div>
+          <div class="user">
+            <img src="./assets/icons/user.png" alt="user" />
+            <div class="name">Елена</div>
+          </div>
+        </div>
+        <div class="subheader">
+          <nav class="subheader-nav">
+            <ul class="list">
+              <li class="item">
+                <a href="#" class="link">Туры</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">Отели</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">Горящие туры</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">Подобрать тур</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">О нас</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="complect">
+        <div class="container">
+          <div class="complect-title">Что входит во все туры?</div>
+          <div class="complect-body">
+            <div class="complect-left">
+              <ul class="left-list">
+                <li class="left-item">
+                  <div class="item-img">
+                    <img src="./assets/icons/complect-fly.svg" alt="complect fly">
+                  </div>
+                  <div class="item-text">Авиаперелеты</div>
+                  <a href="#" class="item-link complect-link">Подробнее</a>
+                </li>
+                <li class="left-item">
+                  <div class="item-img">
+                    <img src="./assets/icons/complect-insurance.svg" alt="complect insurance">
+                  </div>
+                  <div class="item-text">Страхование</div>
+                  <a href="#" class="item-link complect-link">Подробнее</a>
+                </li>
+                <li class="left-item">
+                  <div class="item-img">
+                    <img src="./assets/icons/complect-hotel.svg" alt="complect hotel">
+                  </div>
+                  <div class="item-text">Отель</div>
+                  <a href="#" class="item-link complect-link">Подробнее</a>
+                </li>
+                <li class="left-item">
+                  <div class="item-img">
+                    <img src="./assets/icons/complect-transfer.svg" alt="complect transfer">
+                  </div>
+                  <div class="item-text">Трансфер</div>
+                  <a href="#" class="item-link complect-link">Подробнее</a>
+                </li>
+              </ul>
+            </div>
+            <div class="complect-right">
+              <div class="right-body">
+                <div class="right-title">
+                  Получайте подарки от WayList
+                  <img src="./assets/icons/complect.svg" alt="complect">
+                </div>
+                <div class="right-link complect-link">Подробнее</div>
+              </div>
+              <div class="right-img">
+                <img src="./assets/icons/complect-gift.png" alt="gift">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="installment">
+        <div class="container">
+          <div class="installment-left">
+            <div class="left-title">НЕ ХВАТАЕТ НА ОТДЫХ?</div>
+            <div class="left-descr">
+              Возьмите в рассрочку без
+              <span>рассрочку без</span>
+              % на досрочное закрытие
+            </div>
+          </div>
+          <div class="installment-right">
+            <div class="right-title">РАССРОЧКА</div>
+            <div class="right-descr">Без первоначального взноса</div>
+            <button class="right-button">Расчитать</button>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="container">
+          <div class="about-top">
+            <div class="top-title">Что говорят о нашей работе</div>
+            <div class="icon">
+              <img src="./assets/icons/back.svg" alt="back" />
+            </div>
+          </div>
+          <div class="about-body">
+            <div class="about-coments">
+              <ul class="list">
+                <li class="item">
+                  <div class="item-top">
+                    <div class="item-user">
+                      <div class="user-icon">
+                        <img src="./assets/icons/user.png" alt="user" />
+                      </div>
+                      <div class="user-name">Георгий</div>
+                    </div>
+                    <div class="item-date">16.09.2022</div>
+                  </div>
+                  <div class="item-feedback">
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                  </div>
+                  <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                  <div class="item-descr">
+                    Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                    оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                    Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                    WayList заказать тур и всё бы у них хорошо было
+                  </div>
+                  <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                </li>
+                <li class="item">
+                  <div class="item-top">
+                    <div class="item-user">
+                      <div class="user-icon">
+                        <img src="./assets/icons/user.png" alt="user" />
+                      </div>
+                      <div class="user-name">Георгий</div>
+                    </div>
+                    <div class="item-date">16.09.2022</div>
+                  </div>
+                  <div class="item-feedback">
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                  </div>
+                  <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                  <div class="item-descr">
+                    Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                    оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                    Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                    WayList заказать тур и всё бы у них хорошо было
+                  </div>
+                  <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                </li>
+                <li class="item">
+                  <div class="item-top">
+                    <div class="item-user">
+                      <div class="user-icon">
+                        <img src="./assets/icons/user.png" alt="user" />
+                      </div>
+                      <div class="user-name">Георгий</div>
+                    </div>
+                    <div class="item-date">16.09.2022</div>
+                  </div>
+                  <div class="item-feedback">
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                    <img src="./assets/icons/star.svg" alt="star" />
+                  </div>
+                  <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                  <div class="item-descr">
+                    Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                    оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                    Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                    WayList заказать тур и всё бы у них хорошо было
+                  </div>
+                  <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                </li>
+              </ul>
+              <div class="coments-buttons">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="promo_code">
+                <div class="promo_code-text">Промокод на 1% скидки</div>
+                <div class="promo_code-title">yalechu</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq">
+        <div class="container">
+          <div class="faq-title">FAQ</div>
+          <div class="faq-body">
+            <ul class="faq-list">
+              <li class="faq-item">
+                <div class="item-top">
+                  <span>Через каких туроператоров мы работаем?</span>
+                  <div class="icon"><img src="./assets/icons/back.svg" alt="back" /></div>
+                </div>
+                <div class="item-body">
+                  <div class="item-container">
+                    <ul class="list">
+                      <li class="item">Pegas-Touristick</li>
+                      <li class="item">Coral-Travel</li>
+                      <li class="item">Worldstravel</li>
+                      <li class="item">Smrtour</li>
+                      <li class="item">TEZtour</li>
+                    </ul>
+                    <button class="item-button">Остались вопросы?</button>
+                  </div>
+                </div>
+              </li>
+              <li class="faq-item">
+                <div class="item-top">
+                  <span>Что будет в случае отмены Вашего рейса?</span>
+                  <div class="icon"><img src="./assets/icons/back.svg" alt="back" /></div>
+                </div>
+                <div class="item-body">
+                  <div class="item-container">
+                    <ul class="list">
+                      <li class="item">Pegas-Touristick</li>
+                      <li class="item">Coral-Travel</li>
+                      <li class="item">Worldstravel</li>
+                      <li class="item">Smrtour</li>
+                      <li class="item">TEZtour</li>
+                    </ul>
+                    <button class="item-button">Остались вопросы?</button>
+                  </div>
+                </div>
+              </li>
+              <li class="faq-item">
+                <div class="item-top">
+                  <span>Не работает поиск туров на сайте?</span>
+                  <div class="icon"><img src="./assets/icons/back.svg" alt="back" /></div>
+                </div>
+                <div class="item-body active">
+                  <div class="item-container">
+                    <ul class="list">
+                      <li class="item">Pegas-Touristick</li>
+                      <li class="item">Coral-Travel</li>
+                      <li class="item">Worldstravel</li>
+                      <li class="item">Smrtour</li>
+                      <li class="item">TEZtour</li>
+                    </ul>
+                    <button class="item-button">Остались вопросы?</button>
+                  </div>
+                </div>
+              </li>
+              <li class="faq-item">
+                <div class="item-top">
+                  <span>Что делать если моего города нет в поиске?</span>
+                  <div class="icon"><img src="./assets/icons/back.svg" alt="back" /></div>
+                </div>
+                <div class="item-body">
+                  <div class="item-container">
+                    <ul class="list">
+                      <li class="item">Pegas-Touristick</li>
+                      <li class="item">Coral-Travel</li>
+                      <li class="item">Worldstravel</li>
+                      <li class="item">Smrtour</li>
+                      <li class="item">TEZtour</li>
+                    </ul>
+                    <button class="item-button">Остались вопросы?</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="contact_us">
+        <div class="container">
+          <form class="contact_us-form">
+            <div class="form-title">СВЯЖИТЕСЬ С НАМИ</div>
+            <label for="name" class="form-label">Введите ФИО</label>
+            <input type="text" id="name" class="form-inp" />
+            <label for="phone" class="form-label">Введите Телефон</label>
+            <input type="text" id="phone" class="form-inp" />
+            <div class="form-captcha">
+              <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+            </div>
+            <button class="form-button">Отправить</button>
+          </form>
+          <div class="contact_us-select">
+            <div class="select-top">
+              <div class="select-title">Сколько ночей планируете отдыхать?</div>
+              <div class="select-back">
+                <img src="./assets/icons/back.svg" alt="back" />
+              </div>
+            </div>
+            <div class="select-body">
+              <ul class="select-list">
+                <li class="select-item">
+                  <label for="13nigth">
+                    <input type="radio" id="13nigth" />
+                    <div class="item-text">1-3 Ночей</div>
+                  </label>
+                </li>
+                <li class="select-item">
+                  <label for="36nigth">
+                    <input type="radio" id="36nigth" />
+                    <div class="item-text">3-6 Ночей</div>
+                  </label>
+                </li>
+                <li class="select-item">
+                  <label for="714night">
+                    <input type="radio" id="714night" />
+                    <div class="item-text">7-14 Ночей</div>
+                  </label>
+                </li>
+                <li class="select-item">
+                  <label for="14+night">
+                    <input type="radio" id="14+night" />
+                    <div class="item-text">7-14 Ночей</div>
+                  </label>
+                </li>
+              </ul>
+              <button class="select-button">Далее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subfooter">
+        <div class="container">
+          <div class="subfooter-phone">
+            <div class="icon">
+              <img src="./assets/icons/phone.svg" alt="phone" />
+            </div>
+            <div class="phone">7 (999)-999-99-99</div>
+          </div>
+          <div class="subfooter powered-by">
+            <div class="icon">
+              <img src="./assets/icons/powered-by.svg" alt="powered" />
+            </div>
+            <div class="powered-text">
+              <div class="powered-subtitle">Powered by</div>
+              <div class="powered-title">NoterClave</div>
+            </div>
+          </div>
+          <div class="subfooter-social">
+            <div class="social">
+              <img src="./assets/icons/tg.svg" alt="tg" />
+            </div>
+            <div class="social">
+              <img src="./assets/icons/whatsapp.svg" alt="whatsapp" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-mobile">
+          <div class="powered-by">
+            <div class="icon">
+              <img src="./assets/icons/powered-by.svg" alt="powered" />
+            </div>
+            <div class="powered-text">
+              <div class="powered-subtitle">Powered by</div>
+              <div class="powered-title">NoterClave</div>
+            </div>
+          </div>
+          <div class="policy">Все права Защищены</div>
+        </div>
+        <div class="trends">
+          <div class="trends-title footer-title">Популярные направления</div>
+          <ul class="trends-list">
+            <li class="item">
+              <a href="#" class="link">
+                <span>Турция</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>Египет</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>Тайланд</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>ОАЭ</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>Россия</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>Мальдивы</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>Бали</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>Венесуэла</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <span>Шри-Ланка</span>
+                <img src="./assets/icons/arrow-link.svg" alt="arrow" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="tours footer-nav">
+          <div class="tours-title footer-title">Туры</div>
+          <ul class="tours-list list">
+            <li class="item">
+              <a href="#" class="link">Туры в Турцию</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Туры в ОАЭ</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Туры в Тайланд</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Туры в Египет</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu footer-nav">
+          <div class="menu-title footer-title">Меню</div>
+          <ul class="menu-list list">
+            <li class="item">
+              <a href="#" class="link">Туры</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Отели</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Горящие туры</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Подобрать тур</a>
+            </li>
+          </ul>
+        </div>
+        <div class="company footer-nav">
+          <div class="company-title footer-title">Компания</div>
+          <ul class="company-list list">
+            <li class="item">
+              <a href="#" class="link">О нас</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Контакты</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Реквизиты</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Отзывы</a>
+            </li>
+          </ul>
+        </div>
+        <div class="for__turist footer-nav">
+          <div class="for__turist-title footer-title">Туристу</div>
+          <ul class="for__turist-list list">
+            <li class="item">
+              <a href="#" class="link">Рассрочка</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Подарки</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Что входит в туры?</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Связяться с менеджером</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+      defer
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

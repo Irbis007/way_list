@@ -1,0 +1,78 @@
+.installment {
+  position: relative;
+  margin-bottom: -150px;
+  background-color: #fff;
+  box-shadow: 0px 22px 36px -10px rgba(100, 108, 122, 0.20);
+  border-radius: 0 0 100px 100px;
+  z-index: 100;
+
+}
+.installment .container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 255px;
+  background: url('../assets/images/installment.svg');
+  background-position: center left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.installment .installment-left .left-title {
+  max-width: 300px;
+  color: #2e323e;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.installment .installment-left .left-descr {
+  max-width: 370px;
+  margin-top: 30px;
+  color: #2e323e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+.installment .installment-left .left-descr span {
+  font-weight: 600;
+}
+
+.installment .installment-right {
+  padding: 30px 102px 40px;
+  background: rgba(253, 253, 253, 0.5);
+  box-shadow: 0px 0px 22.733px 0px rgba(180, 188, 201, 0.2);
+  backdrop-filter: blur(7px);
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.installment .installment-right .right-title {
+  color: #5e44ff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 175%;
+}
+.installment .installment-right .right-descr {
+  color: #2e323e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 175%;
+}
+
+.installment .installment-right .right-button {
+  width: 307px;
+  height: 36px;
+  margin-top: 30px;
+  background: #5e44ff;
+
+  border: none;
+  border-radius: 18px;
+
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
