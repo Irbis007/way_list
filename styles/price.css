@@ -1,0 +1,117 @@
+
+.prices{
+  margin-top: 130px;
+}
+
+.prices .prices-title {
+  max-width: 310px;
+  color: #2e323e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 138%;
+}
+
+.prices .prices-body {
+  margin-top: 30px;
+}
+
+.prices .prices-body .prices-list {
+  display: flex;
+  gap: 15px;
+  overflow: scroll hidden;
+}
+
+.prices .prices-list .prices-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex-shrink: 0;
+  width: 303px;
+  height: 297px;
+  padding: 17px;
+}
+
+.prices .prices-list .prices-item .item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 30px;
+}
+
+.prices .prices-list .prices-item .item-img img {
+  position: absolute;
+  z-index: -1;
+}
+
+.prices .prices-list .prices-item .item-title {
+  position: relative;
+  margin-top: auto;
+  color: #fff;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  /* z-index: 100; */
+}
+
+.prices .prices-list .prices-item .item-descr {
+  position: relative;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  z-index: 10;
+}
+
+.prices .prices-list .prices-item .item-price {
+  position: relative;
+  color: #dfff57;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.prices .prices-body .prices-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.prices .prices-body .prices-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 41px;
+  height: 41px;
+  background-color: rgba(46, 50, 62, 1);
+  border: none;
+  border-radius: 50%;
+}
+
+.prices .prices-body .prices-button.button-next {
+  transform: rotate(180deg);
+}
+
+.prices .prices-body .prices-buttons .prices-tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.prices .prices-body .prices-buttons .prices-tabs span {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #2e323e;
+  border-radius: 3px;
+}
+
+.prices .prices-body .prices-buttons .prices-tabs span.active {
+  width: 24px;
+}

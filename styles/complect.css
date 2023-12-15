@@ -1,7 +1,8 @@
 
 .complect .container{
   padding-top: 100px;
-  background: url('../assets/images/complect.svg') center center  no-repeat;
+  padding-bottom: 120px;
+  background: url('../assets/images/complect.svg') 175% 35% / 90% no-repeat;;
 }
 
 .complect .complect-title {

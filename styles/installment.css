@@ -1,10 +1,8 @@
 .installment {
-  position: relative;
   margin-bottom: -150px;
   background-color: #fff;
   box-shadow: 0px 22px 36px -10px rgba(100, 108, 122, 0.20);
   border-radius: 0 0 100px 100px;
-  z-index: 100;
 
 }
 .installment .container {

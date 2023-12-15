@@ -1,9 +1,11 @@
 .about {
+  position: relative;
   padding: 300px 0 65px 0;
   background-color: #dfff57;
   background-image: url("../assets/images/about.png");
   background-repeat: repeat-x;
   border-radius: 100px;
+  z-index: -1;
 }
 
 .about .about-top {
