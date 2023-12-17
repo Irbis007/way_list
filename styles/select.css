@@ -1,3 +1,32 @@
-.TVMainForm{
- background-color: red !important;
+.select{
+  padding-top: 120px;
+}
+
+.select-title {
+  max-width: 360px;
+  color: #2e323e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 138%; 
+}
+
+.select-body {
+  padding-bottom: 140px;
+  border-bottom: 1px dashed #c4c4c4;
+}
+
+.select-tooltip {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.select-tooltip span {
+  display: block;
+  width: 100%;
+  color: #9496c0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
