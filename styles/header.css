@@ -77,3 +77,20 @@
   color: #2E323E;
   text-decoration: none;
 }
+
+@media (max-width: 767px) {
+  .header{
+    border-radius: 0;
+    box-shadow: unset;
+  }
+  .header .header-body{
+    justify-content: space-between;
+  }
+  .header .subheader, 
+  .header .location-wrapper,
+  .header .see_application,
+  .header .phone,
+  .header .logo{
+    display: none;
+  }
+}

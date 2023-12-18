@@ -1,3 +1,7 @@
+.popular{
+  margin-top: 150px;
+}
+
 .popular .popular-title {
   max-width: 465px;
   color: #2e323e;
@@ -46,4 +50,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+
+@media (max-width: 767px) {
+  .popular{
+    display: none;
+  }
 }
