@@ -33,6 +33,7 @@
 }
 
 .complect .complect-left .left-list .left-item {
+  padding-top: 30px;
   border-radius: 30px;
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.5);
@@ -41,10 +42,24 @@
 }
 
 .complect .complect-left .left-list .item-img {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: max-content;
+  margin: 0 auto;
 }
+.complect .complect-left .left-list .left-item .item-img::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(112, 107, 255, 0.5);
+  filter: blur(34px);
+  z-index: -1;
+}
+
 
 .complect .complect-left .left-list .item-text {
   margin-top: 20px;
@@ -105,23 +120,62 @@
   width: 100%;
 }
 
+.complect .complect-button {
+  display: none;
+  width: 345px;
+  height: 36px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #dfff57;
+
+  border: none;
+  border-radius: 18px;
+
+  color: #2e323e;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
 @media (max-width: 991px) {
   .complect .complect-body {
     flex-direction: column;
   }
-  .complect .complect-left{
+  .complect .complect-left {
     width: 100%;
   }
-  .complect .complect-left .left-list{
+  .complect .complect-left .left-list {
     justify-content: center;
   }
-  .complect .complect-right{
+  .complect .complect-right {
     margin: 0 auto;
   }
 }
 
-@media (max-width: 767px){
-  .complect .complect-right{
+@media (max-width: 767px) {
+  .complect .container{
+    max-width: max-content;
+    background: unset;
+    padding-bottom: unset;
+  }
+  .complect .complect-title{
+    max-width: 140px;
+    font-size: 20px;
+  }
+  .complect .complect-left .left-list .left-item .item-text{
+    font-size: 16px;
+  }
+  .complect .complect-left .left-list .left-item .item-link{
+    font-size: 13px;
+  }
+  .complect .complect-body .left-list{
+    grid-template-columns: repeat(2, 167px);
+    grid-template-rows: repeat(2, 167px);
+  }
+  .complect .complect-button{
+    display: block;
+  }
+  .complect .complect-right {
     display: none;
   }
 }

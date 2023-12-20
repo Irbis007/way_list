@@ -11,6 +11,11 @@
     <header class="header">
       <div class="container">
         <div class="header-body">
+          <div class="header-hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <div class="logo">
             <img src="./assets/icons/logo.svg" alt="logo" />
           </div>
@@ -56,10 +61,11 @@
     </header>
 
     <main class="main">
-      <lottie-player src="./assets/bg1.json" background="transparent" class="animation"  speed="1"   loop  autoplay></lottie-player>
+      <lottie-player src="./assets/bg1.json" background="transparent" class="animation desktop-animation"  speed="1"   loop  autoplay></lottie-player>
+      <lottie-player src="./assets/bg2.json" background="transparent" class="animation mobbile-animation"  speed="1"   loop  autoplay></lottie-player>
       <div class="select">
         <div class="container">
-          <div class="select-title">Куда собираетесь отправиться?</div>
+          <div class="select-title title">Куда собираетесь отправиться?</div>
           <div class="select-body">
             <div class="tv-search-form tv-moduleid-9963165"></div>
             <div class="select-tooltip">
@@ -72,7 +78,7 @@
 
       <div class="popular">
         <div class="container">
-          <div class="popular-title">Подборки популярных отелей Турции</div>
+          <div class="popular-title title">Подборки популярных отелей Турции</div>
           <ul class="popular-list">
             <li class="popular-item">
               <div class="item-title">Турция из Москвы</div>
@@ -104,92 +110,96 @@
       <div class="prices">
         <div class="container">
           <div class="prices-top">
-            <div class="prices-title">Минимальные цены</div>
-            <div class="prices-arrow"></div>
+            <div class="prices-title title">Минимальные цены</div>
+            <div class="prices-arrow">
+              <img src="./assets/icons/back.svg" alt="back">
+            </div>
           </div>
           <div class="prices-body">
-            <ul class="prices-list">
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-dubai.jpg" alt="price img" />
-                </div>
-                <div class="item-title">ДУБАЙ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">43 542 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-turkey.jpg" alt="price img" />
-                </div>
-                <div class="item-title">ТУРЦИЯ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">33 132 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-altai.jpg" alt="price img" />
-                </div>
-                <div class="item-title">АЛТАЙ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">243 932 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/pirce-sochi.jpg" alt="price img" />
-                </div>
-                <div class="item-title">СОЧИ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">93 192 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-tailand.jpg" alt="price img" />
-                </div>
-                <div class="item-title">ТАЙЛАНД</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">192 512 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-dubai.jpg" alt="price img" />
-                </div>
-                <div class="item-title">ДУБАЙ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">43 542 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-turkey.jpg" alt="price img" />
-                </div>
-                <div class="item-title">ТУРЦИЯ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">33 132 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-altai.jpg" alt="price img" />
-                </div>
-                <div class="item-title">АЛТАЙ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">243 932 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/pirce-sochi.jpg" alt="price img" />
-                </div>
-                <div class="item-title">СОЧИ</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">93 192 руб.</div>
-              </li>
-              <li class="prices-item">
-                <div class="item-img">
-                  <img src="./assets/images/price-tailand.jpg" alt="price img" />
-                </div>
-                <div class="item-title">ТАЙЛАНД</div>
-                <div class="item-descr">из Новосибирска</div>
-                <div class="item-price">192 512 руб.</div>
-              </li>
-            </ul>
+            <div class="prices_list-wrapper">
+              <ul class="prices-list">
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-dubai.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">ДУБАЙ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">43 542 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-turkey.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">ТУРЦИЯ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">33 132 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-altai.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">АЛТАЙ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">243 932 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/pirce-sochi.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">СОЧИ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">93 192 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-tailand.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">ТАЙЛАНД</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">192 512 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-dubai.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">ДУБАЙ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">43 542 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-turkey.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">ТУРЦИЯ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">33 132 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-altai.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">АЛТАЙ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">243 932 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/pirce-sochi.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">СОЧИ</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">93 192 руб.</div>
+                </li>
+                <li class="prices-item">
+                  <div class="item-img">
+                    <img src="./assets/images/price-tailand.jpg" alt="price img" />
+                  </div>
+                  <div class="item-title">ТАЙЛАНД</div>
+                  <div class="item-descr">из Новосибирска</div>
+                  <div class="item-price">192 512 руб.</div>
+                </li>
+              </ul>
+            </div>
             <div class="prices-buttons">
               <button class="button-prev prices-button">
                 <svg
@@ -206,9 +216,6 @@
                 </svg>
               </button>
               <div class="prices-tabs">
-                <span class="active"></span>
-                <span></span>
-                <span></span>
               </div>
               <button class="button-next prices-button">
                 <svg
@@ -230,7 +237,7 @@
       </div>
       <div class="complect">
         <div class="container">
-          <div class="complect-title">Что входит во все туры?</div>
+          <div class="complect-title title">Что входит во все туры?</div>
           <div class="complect-body">
             <div class="complect-left">
               <ul class="left-list">
@@ -263,6 +270,7 @@
                   <a href="#" class="item-link complect-link">Подробнее</a>
                 </li>
               </ul>
+              <button class="complect-button">Подобрать тур</button>
             </div>
             <div class="complect-right">
               <div class="right-body">
@@ -283,9 +291,9 @@
       <div class="installment">
         <div class="container">
           <div class="installment-left">
-            <div class="left-title">НЕ ХВАТАЕТ НА ОТДЫХ?</div>
+            <div class="left-title title">НЕ ХВАТАЕТ НА ОТДЫХ?</div>
             <div class="left-descr">
-              Возьмите в рассрочку без
+              Возьмите в
               <span>рассрочку без</span>
               % на досрочное закрытие
             </div>
@@ -300,97 +308,174 @@
       <div class="about">
         <div class="container">
           <div class="about-top">
-            <div class="top-title">Что говорят о нашей работе</div>
+            <div class="top-title title">Что говорят <br class="mobbile-br"> о нашей работе</div>
             <div class="icon">
               <img src="./assets/icons/back.svg" alt="back" />
             </div>
           </div>
           <div class="about-body">
             <div class="about-coments">
-              <ul class="list">
-                <li class="item">
-                  <div class="item-top">
-                    <div class="item-user">
-                      <div class="user-icon">
-                        <img src="./assets/icons/user.png" alt="user" />
+              <div class="about_list-wrapper">
+                <ul class="list">
+                  <li class="item">
+                    <div class="item-top">
+                      <div class="item-user">
+                        <div class="user-icon">
+                          <img src="./assets/icons/user.png" alt="user" />
+                        </div>
+                        <div class="user-name">Георгий</div>
                       </div>
-                      <div class="user-name">Георгий</div>
+                      <div class="item-date">16.09.2022</div>
                     </div>
-                    <div class="item-date">16.09.2022</div>
-                  </div>
-                  <div class="item-feedback">
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                  </div>
-                  <div class="item-title">Тур в ОАЭ на 10 дней</div>
-                  <div class="item-descr">
-                    Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
-                    оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
-                    Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
-                    WayList заказать тур и всё бы у них хорошо было
-                  </div>
-                  <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
-                </li>
-                <li class="item">
-                  <div class="item-top">
-                    <div class="item-user">
-                      <div class="user-icon">
-                        <img src="./assets/icons/user.png" alt="user" />
+                    <div class="item-feedback">
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                    </div>
+                    <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                    <div class="item-descr">
+                      Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                      оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                      Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                      WayList заказать тур и всё бы у них хорошо было
+                    </div>
+                    <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                  </li>
+                  <li class="item">
+                    <div class="item-top">
+                      <div class="item-user">
+                        <div class="user-icon">
+                          <img src="./assets/icons/user.png" alt="user" />
+                        </div>
+                        <div class="user-name">Георгий</div>
                       </div>
-                      <div class="user-name">Георгий</div>
+                      <div class="item-date">16.09.2022</div>
                     </div>
-                    <div class="item-date">16.09.2022</div>
-                  </div>
-                  <div class="item-feedback">
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                  </div>
-                  <div class="item-title">Тур в ОАЭ на 10 дней</div>
-                  <div class="item-descr">
-                    Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
-                    оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
-                    Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
-                    WayList заказать тур и всё бы у них хорошо было
-                  </div>
-                  <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
-                </li>
-                <li class="item">
-                  <div class="item-top">
-                    <div class="item-user">
-                      <div class="user-icon">
-                        <img src="./assets/icons/user.png" alt="user" />
+                    <div class="item-feedback">
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                    </div>
+                    <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                    <div class="item-descr">
+                      Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                      оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                      Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                      WayList заказать тур и всё бы у них хорошо было
+                    </div>
+                    <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                  </li>
+                  <li class="item">
+                    <div class="item-top">
+                      <div class="item-user">
+                        <div class="user-icon">
+                          <img src="./assets/icons/user.png" alt="user" />
+                        </div>
+                        <div class="user-name">Георгий</div>
                       </div>
-                      <div class="user-name">Георгий</div>
+                      <div class="item-date">16.09.2022</div>
                     </div>
-                    <div class="item-date">16.09.2022</div>
-                  </div>
-                  <div class="item-feedback">
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                    <img src="./assets/icons/star.svg" alt="star" />
-                  </div>
-                  <div class="item-title">Тур в ОАЭ на 10 дней</div>
-                  <div class="item-descr">
-                    Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
-                    оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
-                    Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
-                    WayList заказать тур и всё бы у них хорошо было
-                  </div>
-                  <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
-                </li>
-              </ul>
+                    <div class="item-feedback">
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                    </div>
+                    <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                    <div class="item-descr">
+                      Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                      оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                      Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                      WayList заказать тур и всё бы у них хорошо было
+                    </div>
+                    <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                  </li>
+                  <li class="item">
+                    <div class="item-top">
+                      <div class="item-user">
+                        <div class="user-icon">
+                          <img src="./assets/icons/user.png" alt="user" />
+                        </div>
+                        <div class="user-name">Георгий</div>
+                      </div>
+                      <div class="item-date">16.09.2022</div>
+                    </div>
+                    <div class="item-feedback">
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                    </div>
+                    <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                    <div class="item-descr">
+                      Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                      оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                      Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                      WayList заказать тур и всё бы у них хорошо было
+                    </div>
+                    <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                  </li>
+                  <li class="item">
+                    <div class="item-top">
+                      <div class="item-user">
+                        <div class="user-icon">
+                          <img src="./assets/icons/user.png" alt="user" />
+                        </div>
+                        <div class="user-name">Георгий</div>
+                      </div>
+                      <div class="item-date">16.09.2022</div>
+                    </div>
+                    <div class="item-feedback">
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                    </div>
+                    <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                    <div class="item-descr">
+                      Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                      оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                      Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                      WayList заказать тур и всё бы у них хорошо было
+                    </div>
+                    <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                  </li>
+                  <li class="item">
+                    <div class="item-top">
+                      <div class="item-user">
+                        <div class="user-icon">
+                          <img src="./assets/icons/user.png" alt="user" />
+                        </div>
+                        <div class="user-name">Георгий</div>
+                      </div>
+                      <div class="item-date">16.09.2022</div>
+                    </div>
+                    <div class="item-feedback">
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                      <img src="./assets/icons/star.svg" alt="star" />
+                    </div>
+                    <div class="item-title">Тур в ОАЭ на 10 дней</div>
+                    <div class="item-descr">
+                      Пацаны в дубай гоняли, ну и не догоняли, я им денег дал, ну как дал, кредит
+                      оформил на себя и выплачивал, ну, а как иначе? Пацаны в дубай хотели? Хотели!
+                      Ну, а я и дай думаю помогу. Помог, но пацаны говна поели знатно. А могли через
+                      WayList заказать тур и всё бы у них хорошо было
+                    </div>
+                    <a href="#" class="item-link">Был в отеле - S7 Airlines(Боинг)</a>
+                  </li>
+                </ul>
+              </div>
               <div class="coments-buttons">
-                <span class="active"></span>
-                <span></span>
-                <span></span>
               </div>
               <div class="promo_code">
                 <div class="promo_code-text">Промокод на 1% скидки</div>
@@ -485,10 +570,20 @@
         <div class="container">
           <form class="contact_us-form">
             <div class="form-title">СВЯЖИТЕСЬ С НАМИ</div>
-            <label for="name" class="form-label">Введите ФИО</label>
-            <input type="text" id="name" class="form-inp" />
-            <label for="phone" class="form-label">Введите Телефон</label>
-            <input type="text" id="phone" class="form-inp" />
+            <label for="name" class="form-label">
+              <span>Введите ФИО</span>
+              <div class="inp-icon">
+                <img src="./assets/icons/fio.svg" alt="fio">
+              </div>
+              <input type="text" id="name" class="form-inp" />
+            </label>
+            <label for="phone" class="form-label">
+              <span>Введите Телефон</span>
+              <div class="inp-icon">
+                <img src="./assets/icons/form-phone.svg" alt="phone">
+              </div>
+              <input type="text" id="phone" class="form-inp" />
+            </label>
             <div class="form-captcha">
               <div class="g-recaptcha" data-sitekey="your_site_key"></div>
             </div>

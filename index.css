@@ -17,6 +17,13 @@ body{
   background-color: #fff;
 }
 
+main{
+  overflow: hidden scroll;
+}
+main::-webkit-scrollbar{
+  width: 0px;
+}
+
 .container{
   max-width: 1300px;
   width: 100%;
@@ -26,5 +33,11 @@ body{
 @media (max-width: 1300px) {
   .container{
     padding: 0 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container{
+    padding: 0 14px;
   }
 }

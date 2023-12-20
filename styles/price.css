@@ -1,5 +1,4 @@
-
-.prices{
+.prices {
   margin-top: 130px;
 }
 
@@ -12,14 +11,37 @@
   line-height: 138%;
 }
 
+.prices .prices-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prices .prices-top .prices-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 57px;
+  background: #fbffea;
+  backdrop-filter: blur(4px);
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+
 .prices .prices-body {
   margin-top: 30px;
+}
+
+.prices .prices_list-wrapper {
+  width: 100%;
 }
 
 .prices .prices-body .prices-list {
   display: flex;
   gap: 15px;
-  overflow: scroll hidden;
+  width: max-content;
+  transition: all 0.2s;
 }
 
 .prices .prices-list .prices-item {
@@ -43,6 +65,7 @@
   width: 100%;
   background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
   border-radius: 30px;
+  overflow: hidden;
 }
 
 .prices .prices-list .prices-item .item-img img {
@@ -71,7 +94,7 @@
 .prices .prices-list .prices-item .item-price {
   position: relative;
   color: #dfff57;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
   font-weight: 600;
 }
@@ -114,4 +137,35 @@
 
 .prices .prices-body .prices-buttons .prices-tabs span.active {
   width: 24px;
+}
+
+@media (max-width: 767px) {
+  .prices {
+    margin-top: 85px;
+  }
+  .prices .prices-title {
+    max-width: 160px;
+    font-size: 20px;
+  }
+  .prices .prices-list .prices-item {
+    width: 226px;
+    height: 222px;
+  }
+  .prices .prices-list .prices-item .item-img {
+    border-radius: 18px;
+  }
+  .prices .prices-list .prices-item .item-img img {
+    left: -10px;
+  }
+  .prices .prices-list .prices-item .item-title {
+    font-size: 32px;
+    line-height: 100%;
+  }
+  .prices .prices-list .prices-item .item-descr {
+    margin-top: 4px;
+    font-size: 14px;
+  }
+  .prices .prices-list .prices-item .item-price {
+    font-size: 16px;
+  }
 }

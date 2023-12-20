@@ -1,11 +1,9 @@
-
-
-.faq{
+.faq {
   margin-top: 190px;
 }
 
 .faq .faq-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: 600;
   color: #2e323e;
@@ -15,12 +13,12 @@
   display: grid;
   grid-template-rows: 0fr;
   overflow: hidden;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
-.faq .item-body.active{
+.faq .item-body.active {
   grid-template-rows: 1fr;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .faq .item-body .item-container {
@@ -49,18 +47,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   width: 57px;
   height: 57px;
   border-radius: 50%;
   background: #fbffea;
   backdrop-filter: blur(4px);
   transform: rotate(-90deg);
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
-.faq .faq-list .faq-item .item-top.active .icon{
+.faq .faq-list .faq-item .item-top.active .icon {
   transform: rotate(90deg);
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .faq .faq-list .list {
@@ -97,4 +96,21 @@
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #2e323e;
+}
+
+@media (max-width: 767px) {
+  .faq{
+    margin-top: 80px;
+  }
+  .faq .faq-title{
+    display: none;
+  }
+  .faq .faq-list .faq-item{
+    padding: 15px 0;
+  }
+  .faq .faq-list .faq-item .item-top span{
+    color: #2e323e;
+    font-size: 20px;
+    font-weight: 600;
+  }
 }

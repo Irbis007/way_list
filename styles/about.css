@@ -1,21 +1,15 @@
 .about {
-  position: relative;
   padding: 300px 0 65px 0;
   background-color: #dfff57;
   background-image: url("../assets/images/about.png");
   background-repeat: repeat-x;
   border-radius: 100px;
-  z-index: -1;
 }
 
 .about .about-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.about .about-body{
-  overflow: scroll;
 }
 
 .about .about-top .top-title {
@@ -45,11 +39,13 @@
 .about-body .about-coments .list {
   display: flex;
   gap: 30px;
+  width: max-content;
+  transition: all 0.2s;
 }
 
 .about-body .about-coments .list .item {
-  max-width: 415px;
-  width: 100%;
+  flex-shrink: 0;
+  width: 412px;
   padding: 33px 33px 48px 33px;
   background: rgba(253, 253, 253, 0.5);
   box-shadow: 0px 0px 27px 0px rgba(180, 188, 201, 0.2);
@@ -151,8 +147,58 @@
   -webkit-text-fill-color: transparent;
 
   text-align: center;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 39px;
   font-weight: 600;
-  line-height: 100%; 
+  line-height: 100%;
+}
+
+.mobbile-br{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobbile-br{
+    display: block;
+  }
+  .about .about-top .top-title{
+    max-width: 240px;
+    font-size: 20px;
+  }
+  .about-body .about-coments .list .item {
+    flex-shrink: 0;
+    width: 323px;
+    padding: 26px;
+    border-radius: 28px;
+    border: 1px solid #fff;
+    background: #fdfdfd;
+    box-shadow: 0px 0px 21.586px 0px rgba(180, 188, 201, 0.2);
+    backdrop-filter: blur(6.646634578704834px);
+  }
+  .about-body .about-coments .list .item-user .user-name,
+  .about-body .about-coments .list .item-date {
+    font-size: 13px;
+    line-height: 100%;
+  }
+  .about-body .about-coments .item-feedback {
+    margin-top: 20px;
+  }
+  .about-body .about-coments .item-title {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .about-body .about-coments .item-descr {
+    margin-top: 12px;
+    font-size: 13px;
+  }
+  .about-body .about-coments .item-link {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .about{
+
+    padding: 230px 0 17px 0;
+    border-radius: 30px;
+  }
 }

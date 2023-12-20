@@ -7,7 +7,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .header-body{
   display: flex;
   align-items: center;
@@ -78,6 +77,19 @@
   text-decoration: none;
 }
 
+.header .header-hamburger{
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.header .header-hamburger div{
+  width: 20px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #2E323E;
+}
+
 @media (max-width: 767px) {
   .header{
     border-radius: 0;
@@ -85,6 +97,9 @@
   }
   .header .header-body{
     justify-content: space-between;
+  }
+  .header .header-hamburger{
+    display: flex;
   }
   .header .subheader, 
   .header .location-wrapper,
