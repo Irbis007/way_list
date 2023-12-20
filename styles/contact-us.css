@@ -164,7 +164,7 @@
 }
 
 @media (max-width: 767px) {
-  .TVMainForm{
-    background: red !important;
+  .TVSearchButton{
+    color: #2E323E;
   }
 }
