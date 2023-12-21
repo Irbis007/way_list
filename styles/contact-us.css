@@ -177,8 +177,8 @@
   .TVResultPageCaption, 
   .TVMobilePanelClose,
   .TVMenuButton {
-    border-radius: 38px;
-    background: #fbffea;
-    backdrop-filter: blur(3.5490543842315674px);
+    border-radius: 38px !important;
+    background: #fbffea !important;
+    backdrop-filter: blur(3px) !important;
   }
 }
