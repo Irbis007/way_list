@@ -181,4 +181,11 @@
     background: #fbffea !important;
     backdrop-filter: blur(3px) !important;
   }
+  .TVToggleSwitch{
+    background-color: #DFFF57 !important;
+    border-radius: 18px !important;
+  }
+  .TVToggleSwitchItem.TVActive{
+    border-radius: 18px !important;
+  }
 }
