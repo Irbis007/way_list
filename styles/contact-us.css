@@ -207,7 +207,7 @@
     font-size: 14px !important;
     font-weight: 500 !important;
   }
-  .TVCalendarTableCell.TVCalendarEndDateCell,
+  .TVCalendarTableCell.TVCalendarEndDateCell.TVCalendarStartDateCell,
   .TVCalendarTableCell.TVCalendarEndDateCell:hover,
   .TVCalendarTableCell.TVCalendarStartDateCell,
   .TVCalendarTableCell.TVCalendarStartDateCell:hover {
