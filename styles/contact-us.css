@@ -188,10 +188,50 @@
   .TVToggleSwitchItem {
     color: #2e323e !important;
     text-align: center;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Montserrat", sans-serif !important;
     font-size: 14px !important;
   }
   .TVToggleSwitchSelection {
     border-radius: 18px !important;
+  }
+  .TVCalendarTitleControlMonth {
+    color: #2e323e !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 21px !important;
+    font-weight: 600 !important;
+    line-height: 153% !important;
+  }
+  .TVCalendarTitleControlYear {
+    color: #c4c4c4 !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .TVCalendarTableCell.TVCalendarEndDateCell,
+  .TVCalendarTableCell.TVCalendarEndDateCell:hover,
+  .TVCalendarTableCell.TVCalendarStartDateCell,
+  .TVCalendarTableCell.TVCalendarStartDateCell:hover {
+    border-radius: 18px !important;
+    background: #e6ff4f !important;
+    color: #2e323e !important;
+    text-align: center;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+  }
+  .TVCalendarTableCell.TVCalendarSelectedCell {
+    border-radius: 18px !important;
+    background: #fbffea !important;
+    color: #2e323e !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+  }
+  .TVCalendarFlyAvailablePrice {
+    color: #2e323e !important;
+    text-align: center !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 10px !important;
+    letter-spacing: -0.55px !important;
   }
 }
