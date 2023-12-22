@@ -238,11 +238,33 @@
   background: #e6ff4f !important;
 }
 
-.TVCalendarListViewWeekdays{
+.TVCalendarListViewWeekdays {
   color: #2e323e !important;
 }
 
 .TVCalendarListViewWeekdays div:nth-child(6),
-.TVCalendarListViewWeekdays>:nth-child(7) {
-  color: #5E44FF !important;
+.TVCalendarListViewWeekdays > :nth-child(7) {
+  color: #5e44ff !important;
+}
+
+.TVButtonControl.TVVariant-contained.TVColorBlue400 {
+  background-color: #dfff57 !important;
+  border-radius: 18px !important;
+
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 15px !important;
+}
+
+.TVFlyDatesSelectTooltipPage .TVFlyDatesSelectTooltipRegular,
+.TVFlyDatesSelectTooltipSheet .TVFlyDatesSelectTooltipRegular {
+  background: #fbffea !important;
+}
+.TVCheckBox {
+  color: #2e323e !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+}
+.TVCheckBox:before{
+  border-radius: 50% !important;
 }
