@@ -315,7 +315,17 @@
   border-radius: 20px !important;
 }
 
+.TVTabListWithSearchInputBeforeTabs .TVTabListWithSearchInput input{
+  background-color: transparent !important;
+}
+
 .TVTabListControl.TVStyleTheme2 .TVTabListItem.TVActive,
 .TVTabListControl.TVStyleTheme3 .TVTabListItem.TVActive {
   background: #f9f9f9 !important;
+  color: #2e323e !important;
+}
+
+.TVComplexListItemButton{
+  background-color: #F9F9F9 !important;
+  padding: 5px 12px !important;
 }
