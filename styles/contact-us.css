@@ -238,11 +238,11 @@
   background: #e6ff4f !important;
 }
 
-.TVCalendarListViewWeekdays>*{
+.TVCalendarListViewWeekdays{
   color: #2e323e !important;
 }
 
-.TVCalendarListViewWeekdays > :nth-child(6),
-.TVCalendarListViewWeekdays > :nth-child(7) {
+.TVCalendarListViewWeekdays div:nth-child(6),
+.TVCalendarListViewWeekdays>:nth-child(7) {
   color: #5E44FF !important;
 }
