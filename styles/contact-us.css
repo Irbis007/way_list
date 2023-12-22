@@ -276,12 +276,12 @@
   background: #fff !important;
 }
 
+.TVRangeTableCell.TVRangeCellSelected {
+  background: #fbffea !important;
+}
+.TVRangeTableCell.TVRangeCellHovered.TVRangeCellHightlighted.TVRangeCellStart,
+.TVRangeTableCell.TVRangeCellHovered.TVRangeCellHightlighted.TVRangeCellEnd {
 
-.TVRangeTableCell.TVRangeCellSelected{
-  background: #FBFFEA !important;
+  background: #e6ff4f !important;
 }
 
-.TVRangeTableCell.TVRangeCellLast,
-.TVRangeTableCell.TVRangeCellStart {
-  background: #E6FF4F !important;
-}
