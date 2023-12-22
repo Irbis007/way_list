@@ -231,10 +231,18 @@
   letter-spacing: -0.55px !important;
 }
 
-
 .TVCalendarEndDateCell,
 .TVCalendarEndDateCell:hover,
 .TVCalendarStartDateCell,
 .TVCalendarStartDateCell:hover {
   background: #e6ff4f !important;
+}
+
+.TVCalendarListViewWeekdays>*{
+  color: #2e323e !important;
+}
+
+.TVCalendarListViewWeekdays > :nth-child(6),
+.TVCalendarListViewWeekdays > :nth-child(7) {
+  color: #5E44FF !important;
 }
