@@ -280,8 +280,30 @@
   background: #fbffea !important;
 }
 .TVRangeTableCell.TVRangeCellHovered.TVRangeCellHightlighted.TVRangeCellStart,
-.TVRangeTableCell.TVRangeCellHovered.TVRangeCellHightlighted.TVRangeCellEnd {
-
+.TVRangeTableCell.TVRangeCellHovered.TVRangeCellHightlighted.TVRangeCellLast {
   background: #e6ff4f !important;
+  color: #2e323e !important;
 }
 
+.TVRangeSelectTooltipHighlightHelp {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.TVRangeSelectTooltipHighlightHelp:before {
+  width: 16px !important;
+  height: 16px !important;
+  border: 1px solid #c4c4c4 !important;
+}
+
+.TVButtonControl.TVColorBlue400.TVVariant-outlined {
+  max-width: 350px !important;
+  width: 100% !important;
+  background: #dfff57 !important;
+  border-radius: 18px !important;
+  border: none !important;
+
+  color: #2e323e !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 15px !important;
+}
