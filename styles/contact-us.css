@@ -297,13 +297,25 @@
 }
 
 .TVButtonControl.TVColorBlue400.TVVariant-outlined {
-  max-width: 350px !important;
-  width: 100% !important;
+  width: 330px !important;
   background: #dfff57 !important;
   border-radius: 18px !important;
   border: none !important;
 
   color: #2e323e !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 15px !important;
+}
+
+.TVTabListWithSearchInputBeforeTabs .TVTabListWithSearchInput,
+.TVTabListControl.TVStyleTheme2 .TVTabListItem,
+.TVTabListControl.TVStyleTheme3 .TVTabListItem {
+  background: #fbffea !important;
+  backdrop-filter: blur(3px) !important;
+  border-radius: 20px !important;
+}
+
+.TVTabListControl.TVStyleTheme2 .TVTabListItem.TVActive,
+.TVTabListControl.TVStyleTheme3 .TVTabListItem.TVActive {
+  background: #f9f9f9 !important;
 }
