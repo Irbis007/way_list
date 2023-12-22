@@ -259,11 +259,15 @@
   font-size: 15px !important;
 }
 
+/* styling popup bottom */
+
 .TVFlyDatesSelectTooltipPage .TVFlyDatesSelectTooltipRegular,
 .TVFlyDatesSelectTooltipSheet .TVFlyDatesSelectTooltipRegular,
-.TVCountrySelectTooltipRegular {
+.TVCountrySelectTooltipRegular,
+.TVTouristsSelectTooltipSheet .TVTouristsSelectTooltipRemember {
   background: #fbffea !important;
 }
+
 .TVCheckBox {
   color: #2e323e !important;
   font-family: "Montserrat", sans-serif !important;
@@ -372,7 +376,7 @@
   color: #2e323e !important;
 }
 
-.TVTouristElement.TVTouristButton, .TVSelectChildAgeItem {
+.TVTouristElement.TVTouristButton {
   background: #f9f9f9 !important;
   border-radius: 18px !important;
 
@@ -383,5 +387,43 @@
 
 .TVSelectChildAgeHeader {
   color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.TVSelectChildAgeItem {
+  background: #fbffea !important;
+  border-radius: 18px !important;
+
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+}
+
+.TVMobileHeaderWrapper {
+  padding: 23px 0 10px 0 !important;
+  background: #fff !important;
+  box-shadow: 0px 0px 23.667px 0px rgba(180, 188, 201, 0.5) !important;
+}
+
+.TVBaseSearchFilterPage.TVLayoutControl .TVMobilePanelHeader {
+  background-color: transparent !important;
+}
+
+.TVBaseSearchFilterPage.TVLayoutControl .TVMobilePanelBody {
+  background-color: #fff !important;
+}
+
+.TVMobileAddFiltersFormItem {
+  border: none !important;
+}
+
+.TVStarsSelectTitle{
+  color: #2e323e !important;
   font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.TVStarsSelect.TVStyleTheme3 .TVStarsSelectItem.TVActive:before {
+  color: #5e44ff !important;
 }
