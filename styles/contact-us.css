@@ -196,6 +196,7 @@
 .TVToggleSwitchSelection {
   border-radius: 18px !important;
 }
+
 .TVCalendarTitleControlMonth {
   color: #2e323e !important;
   font-family: "Montserrat", sans-serif !important;
@@ -250,6 +251,7 @@
 .TVButtonControl.TVVariant-contained.TVColorBlue400 {
   background-color: #dfff57 !important;
   border-radius: 18px !important;
+  border: none !important;
 
   color: #2e323e !important;
   font-family: "Montserrat", sans-serif !important;
@@ -262,9 +264,24 @@
 }
 .TVCheckBox {
   color: #2e323e !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 13px !important;
 }
-.TVCheckBox:before{
+.TVCheckBox:before {
   border-radius: 50% !important;
+}
+
+.TVRangeTableCell {
+  border-radius: 18px !important;
+  background: #fff !important;
+}
+
+
+.TVRangeTableCell.TVRangeCellSelected{
+  background: #FBFFEA !important;
+}
+
+.TVRangeTableCell.TVRangeCellLast,
+.TVRangeTableCell.TVRangeCellStart {
+  background: #E6FF4F !important;
 }
