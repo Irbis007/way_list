@@ -488,7 +488,8 @@
 }
 
 .TVStarsSelect.TVStyleTheme3 .TVStarsSelectItem.TVActive:before,
-.TVHotelTitleControl .TVHotelTitleStarsList .TVHotelTitleStar:before {
+.TVHotelTitleControl .TVHotelTitleStarsList .TVHotelTitleStar:before,
+.TVHotelReviewItemControl .TVReviewStar.TVStarEnable:before {
   color: #5e44ff !important;
 }
 
@@ -544,6 +545,9 @@
 
 .TVResultMobileRequestHelpButton,
 .TVHotelCardShowMoreBtn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;  
   height: 64px !important;
   border-radius: 25px !important;
   background: linear-gradient(91deg, #5e44ff 0.89%, rgba(94, 68, 255, 0) 151.76%) !important;
@@ -560,6 +564,7 @@
 .TVHotelCardGroupToursButton {
   border-radius: 20px !important;
   background: #e6ff4f !important;
+  border: none !important;
   color: #2e323e !important;
   font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
@@ -585,7 +590,7 @@
   font-weight: 500 !important;
 }
 
-.TVRoomInfo:nth-child(2n) {
+.TVTourResultByRoomItem:nth-child(2n) .TVRoomInfo{
   color: #5e44ff !important;
 }
 
@@ -603,3 +608,14 @@
   font-size: 10px !important;
   font-weight: 500 !important;
 }
+
+.TVHotelInfoRating.TVRatingNormal, .TVMSHotelInfoRating.TVRatingNormal, .TVAreaContentControl .TVAreaContentRating.TVRatingNormal{
+  color: #2e323e !important;
+}
+
+.TVHotelReviewsAdd,
+.TVHotelReviewsMore{
+  background-color: #dfff57 !important;
+  color: #2e323e !important;
+}
+
