@@ -360,11 +360,17 @@
   font-weight: 600 !important;
 }
 
-.TVTouristAction {
+.TVTouristAction.contact_us,
+.TVMobileContainer .TVSideNavClose:after {
   width: 36px !important;
   height: 36px !important;
   background: #fbffea !important;
   border-radius: 50% !important;
+}
+
+.TVMobileContainer .TVSideNavClose:after {
+  width: 48px !important;
+  height: 48px !important;
 }
 
 .TVTouristElement {
@@ -465,7 +471,9 @@
 
 .TVHotelInfoRating.TVRatingNormal,
 .TVMSHotelInfoRating.TVRatingNormal,
-.TVAreaContentControl .TVAreaContentRating.TVRatingNormal {
+.TVAreaContentControl .TVAreaContentRating.TVRatingNormal,
+.TVHotelInfoRating.TVRatingGood,
+.TVMSHotelInfoRating.TVRatingGood {
   background-color: #e6ff4f !important;
 }
 
@@ -520,6 +528,7 @@
   font-family: "Montserrat", sans-serif !important;
   font-size: 13px !important;
   font-weight: 500 !important;
+  padding-bottom: 7px !important;
 }
 
 .TVMResultItemDescription.TVLineClamp-M,
@@ -547,7 +556,7 @@
 .TVHotelCardShowMoreBtn {
   display: flex !important;
   align-items: center !important;
-  justify-content: center !important;  
+  justify-content: center !important;
   height: 64px !important;
   border-radius: 25px !important;
   background: linear-gradient(91deg, #5e44ff 0.89%, rgba(94, 68, 255, 0) 151.76%) !important;
@@ -590,7 +599,7 @@
   font-weight: 500 !important;
 }
 
-.TVTourResultByRoomItem:nth-child(2n) .TVRoomInfo{
+.TVTourResultByRoomItem:nth-child(2n) .TVRoomInfo {
   color: #5e44ff !important;
 }
 
@@ -604,18 +613,55 @@
 
 .TVTourResultByRoomItemPriceCurrency {
   color: #c4c4c4 !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 10px !important;
   font-weight: 500 !important;
 }
 
-.TVHotelInfoRating.TVRatingNormal, .TVMSHotelInfoRating.TVRatingNormal, .TVAreaContentControl .TVAreaContentRating.TVRatingNormal{
+.TVHotelInfoRating.TVRatingNormal,
+.TVMSHotelInfoRating.TVRatingNormal,
+.TVAreaContentControl .TVAreaContentRating.TVRatingNormal {
   color: #2e323e !important;
 }
 
 .TVHotelReviewsAdd,
-.TVHotelReviewsMore{
+.TVHotelReviewsMore {
   background-color: #dfff57 !important;
   color: #2e323e !important;
 }
 
+.TVHotelReviewsMore {
+  text-transform: capitalize !important;
+}
+
+.TVAreaContentControl .TVAreaContentText {
+  font-weight: 400 !important;
+}
+
+/* Tourvisor menu */
+
+.TVMenuControl.TVStyleTheme2 .TVMenuItem {
+  border: none !important;
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+.TVMenuControl.TVStyleTheme2 .TVMenuItem:before {
+  color: #8587b7 !important;
+}
+
+.TVResultMenuTitle {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.TVResultMenuSearchParams {
+  opacity: 1 !important;
+  color: #c4c4c4 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
