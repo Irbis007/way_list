@@ -418,8 +418,8 @@
 .TVMobileAddFiltersFormItem.TVMealFilter,
 .TVMobileAddFiltersFormItem.TVHotelRatingFilter,
 .TVMobileAddFiltersFormItem.TVHotelServicesFilter {
-  border: none;
-  border-bottom: 1px solid #f9f9f9;
+  border: none !important;
+  border-bottom: 1px solid #f9f9f9 !important;
 }
 
 .TVMobileAddFiltersForm .TVMobileAddFiltersFormWrapper {
