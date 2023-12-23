@@ -198,14 +198,16 @@
   border-radius: 18px !important;
 }
 
-.TVCalendarTitleControlMonth {
+.TVCalendarTitleControlMonth,
+.TVHotelTitleControl .TVHotelTitleName.TVHotelTitleCapitalize {
   color: #2e323e !important;
   font-family: "Montserrat", sans-serif !important;
   font-size: 21px !important;
   font-weight: 600 !important;
   line-height: 153% !important;
 }
-.TVCalendarTitleControlYear {
+.TVCalendarTitleControlYear,
+.TVMobilePanel .TVHotelTitleResort {
   color: #c4c4c4 !important;
   font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
@@ -427,7 +429,8 @@
   color: #5e44ff !important;
 }
 
-.TVHotelInfoRating {
+.TVHotelInfoRating,
+.TVAreaContentControl .TVAreaContentRating {
   border-radius: 20px !important;
 }
 
@@ -461,7 +464,8 @@
 }
 
 .TVHotelInfoRating.TVRatingNormal,
-.TVMSHotelInfoRating.TVRatingNormal {
+.TVMSHotelInfoRating.TVRatingNormal,
+.TVAreaContentControl .TVAreaContentRating.TVRatingNormal {
   background-color: #e6ff4f !important;
 }
 
@@ -471,7 +475,8 @@
 
 .TVStarsSelectTitle,
 .TVAddSelect.TVStyleTheme3 .TVAddSelectContent,
-.TVAddSelect.TVStyleTheme3 .TVAddSelectPlaceholder {
+.TVAddSelect.TVStyleTheme3 .TVAddSelectPlaceholder,
+.TVAreaContentControl .TVAreaContentText {
   color: #2e323e !important;
   font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
@@ -482,7 +487,8 @@
   color: #8587b7;
 }
 
-.TVStarsSelect.TVStyleTheme3 .TVStarsSelectItem.TVActive:before {
+.TVStarsSelect.TVStyleTheme3 .TVStarsSelectItem.TVActive:before,
+.TVHotelTitleControl .TVHotelTitleStarsList .TVHotelTitleStar:before {
   color: #5e44ff !important;
 }
 
@@ -530,11 +536,70 @@
   background-color: transparent !important;
 }
 
-.TVMResultItemPriceValueArrow, .TVMSResultItemPriceValueArrow, .TVResultItemPriceValueArrow{
-  color: #2E323E !important;
+.TVMResultItemPriceValueArrow,
+.TVMSResultItemPriceValueArrow,
+.TVResultItemPriceValueArrow {
+  color: #2e323e !important;
 }
 
-.TVResultMobileRequestHelpButton{
+.TVResultMobileRequestHelpButton,
+.TVHotelCardShowMoreBtn {
+  height: 64px !important;
   border-radius: 25px !important;
-  background: linear-gradient(91deg, #5E44FF 0.89%, rgba(94, 68, 255, 0.00) 151.76%) !important;
+  background: linear-gradient(91deg, #5e44ff 0.89%, rgba(94, 68, 255, 0) 151.76%) !important;
+  color: #fff !important;
+}
+
+.TVResultListViewMore {
+  border-radius: 18px !important;
+  background-color: #dfff57 !important;
+  color: #2e323e !important;
+}
+
+.TVMobilePanel .TVMobileResultBtn,
+.TVHotelCardGroupToursButton {
+  border-radius: 20px !important;
+  background: #e6ff4f !important;
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+}
+
+.TVMTourResultItem,
+.TVTourResultByRoomItemContent {
+  border-radius: 26px !important;
+  border: 1px solid #fff !important;
+  background: rgba(253, 253, 253, 0.5) !important;
+  box-shadow: 0px 0px 14px 0px rgba(180, 188, 201, 0.3) !important;
+  backdrop-filter: blur(7px) !important;
+}
+
+.TVMTourResultItemConfirmation {
+  color: #dfff57 !important;
+}
+
+.TVRoomInfo {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.TVRoomInfo:nth-child(2n) {
+  color: #5e44ff !important;
+}
+
+.TVTourResultByRoomItemPrice {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+}
+
+.TVTourResultByRoomItemPriceCurrency {
+  color: #c4c4c4 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
 }
