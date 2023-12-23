@@ -413,17 +413,45 @@
   background-color: #fff !important;
 }
 
-.TVMobileAddFiltersFormItem {
-  border: none !important;
+.TVMobileAddFiltersFormItem.TVStarsFilter,
+.TVMobileAddFiltersFormItem.TVDetailsFilter,
+.TVMobileAddFiltersFormItem.TVMealFilter,
+.TVMobileAddFiltersFormItem.TVHotelRatingFilter,
+.TVMobileAddFiltersFormItem.TVHotelServicesFilter {
+  border: none;
+  border-bottom: 1px solid #f9f9f9;
 }
 
-.TVStarsSelectTitle{
+.TVMobileAddFiltersForm .TVMobileAddFiltersFormWrapper {
+  border: none;
+}
+
+.TVStarsSelectTitle,
+.TVAddSelect.TVStyleTheme3 .TVAddSelectContent,
+.TVAddSelect.TVStyleTheme3 .TVAddSelectPlaceholder {
   color: #2e323e !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
   font-weight: 600 !important;
 }
 
+.TVAddSelect.TVStyleTheme3 .TVAddSelectArrow:before {
+  color: #8587b7;
+}
+
 .TVStarsSelect.TVStyleTheme3 .TVStarsSelectItem.TVActive:before {
   color: #5e44ff !important;
+}
+
+.TVButtonColor {
+  color: #2e323e !important;
+}
+
+.TVAddFiltersResetAction {
+  border: none !important;
+  color: #5e44ff !important;
+
+  font-family: 'Montserrat', sans-serif !important; 
+  font-size: 14px !important;
+  font-weight: 400 !important;
 }
