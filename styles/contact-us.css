@@ -420,10 +420,53 @@
 .TVMobileAddFiltersFormItem.TVHotelServicesFilter {
   border: none !important;
   border-bottom: 1px solid #f9f9f9 !important;
+  box-shadow: unset !important;
+}
+
+.TVHotelInfoStar.TVColorRed {
+  color: #5e44ff !important;
+}
+
+.TVHotelInfoRating {
+  border-radius: 20px !important;
+}
+
+.TVHotelInfoRating,
+.TVMSHotelInfoRating {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+
+.TVMResultItemTitle,
+.TVResultItemTitle,
+.TVSResultItemTitle {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 158% !important;
+}
+.TVMResultItemSubTitle,
+.TVResultItemSubTitle {
+  color: #c4c4c4 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.TVLikeButton.TVSize-XXXL.TVLiked {
+  color: rgba(230, 255, 79, 1) !important;
+}
+
+.TVHotelInfoRating.TVRatingNormal,
+.TVMSHotelInfoRating.TVRatingNormal {
+  background-color: #e6ff4f !important;
 }
 
 .TVMobileAddFiltersForm .TVMobileAddFiltersFormWrapper {
-  border: none;
+  border: none !important;
 }
 
 .TVStarsSelectTitle,
@@ -451,7 +494,47 @@
   border: none !important;
   color: #5e44ff !important;
 
-  font-family: 'Montserrat', sans-serif !important; 
+  font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
   font-weight: 400 !important;
+}
+
+.TVMResultItemPriceValue {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+}
+.TVMResultItemPriceSuffix,
+.TVMSResultItemPriceSuffix,
+.TVResultItemPriceSuffix {
+  color: #c4c4c4 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.TVMResultItemDescription.TVLineClamp-M,
+.TVResultItemDescription.TVLineClamp-M,
+.TVSResultItemDescription.TVLineClamp-M {
+  color: #2e323e !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+}
+
+.TVMResultItemPriceValueArrow,
+.TVMSResultItemPriceValueArrow,
+.TVResultItemPriceValueArrow {
+  background-color: transparent !important;
+}
+
+.TVMResultItemPriceValueArrow, .TVMSResultItemPriceValueArrow, .TVResultItemPriceValueArrow{
+  color: #2E323E !important;
+}
+
+.TVResultMobileRequestHelpButton{
+  border-radius: 25px !important;
+  background: linear-gradient(91deg, #5E44FF 0.89%, rgba(94, 68, 255, 0.00) 151.76%) !important;
 }
